@@ -149,8 +149,25 @@ The model was able to correctly guess 3 of the 6 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 156th cell of the Ipython notebook.
 
+## Dependencies
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+* `OpenCV`
+* `Numpy` 
+* `Movie.py`
+* `sklearn`
+* `Pandas`
+* `Pickle`
+* `Tensorflow`
+
+## Run Instructions
+```bash
+jupyter notebook augment_data.ipynb
+jupyter notebook traffic-sign-classifier.ipynb 
+```
+
+
+
+
+
 
 
