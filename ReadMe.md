@@ -1,8 +1,6 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
 
 ---
 
@@ -22,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./New_Images/2.png "Traffic Sign 1"
-[image5]: ./examples/3.png "Traffic Sign 2"
-[image6]: ./examples/4.png "Traffic Sign 3"
-[image7]: ./examples/5.png "Traffic Sign 4"
-[image8]: ./examples/6.png "Traffic Sign 5"
+[image4]: ./New_Images/2.ppm "Traffic Sign 1"
+[image5]: ./examples/3.ppm "Traffic Sign 2"
+[image6]: ./examples/4.ppm "Traffic Sign 3"
+[image7]: ./examples/5.ppm "Traffic Sign 4"
+[image8]: ./examples/6.ppm "Traffic Sign 5"
 
 ---
 ### Writeup / README
@@ -74,7 +72,7 @@ To add more data to the the data set, I used the following techniques:
 
 Example of an original image and an augmented images are given in the `augment_data.ipynb` notebook from cells 6 - 10:
 
-![alt text
+![alt text]
 
 The original  training dataset had `34799` images across all the classes and the augmented data had `41018` images across all the classes.
 I made use of `sklearn train test split` function to split the augemented dataset into training and validation sets.
