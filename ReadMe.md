@@ -29,6 +29,21 @@ The goals / steps of this project are the following:
 ---
 
 
+## Dependencies
+
+* `OpenCV`
+* `Numpy` 
+* `Movie.py`
+* `sklearn`
+* `Pandas`
+* `Pickle`
+* `Tensorflow`
+
+## Run Instructions
+```bash
+jupyter notebook augment_data.ipynb
+jupyter notebook traffic-sign-classifier.ipynb 
+```
 
 ### Data Set Summary & Exploration
 
@@ -149,21 +164,6 @@ The model was able to correctly guess 3 of the 6 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 156th cell of the Ipython notebook.
 
-## Dependencies
-
-* `OpenCV`
-* `Numpy` 
-* `Movie.py`
-* `sklearn`
-* `Pandas`
-* `Pickle`
-* `Tensorflow`
-
-## Run Instructions
-```bash
-jupyter notebook augment_data.ipynb
-jupyter notebook traffic-sign-classifier.ipynb 
-```
 
 
 
